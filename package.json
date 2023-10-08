@@ -1,0 +1,25 @@
+{
+  "name": "train-seat-reservation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"start": "node server/index.js",
+	"build": "cd client && npm install && npm run build"
+  },
+<<<<<<< HEAD
+  "engines": {
+  	"node": "16.20.2"
+  },
+=======
+  "engines": { "node": "18.17.0" },
+>>>>>>> f46e31bb77ae76a624b6a065532a7ae67f6a2457
+  "proxy": "http://localhost:3001",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
